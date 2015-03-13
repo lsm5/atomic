@@ -1,5 +1,5 @@
 # Installation directories.
-PREFIX ?= $(DESTDIR)/usr
+PREFIX ?= $(DESTDIR)/usr/local
 SYSCONFDIR ?= $(DESTDIR)/etc/sysconfig
 PROFILEDIR ?= $(DESTDIR)/etc/profile.d
 PYTHON ?= /usr/bin/python
