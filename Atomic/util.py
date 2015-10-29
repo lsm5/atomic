@@ -12,7 +12,7 @@ ReturnTuple = collections.namedtuple('ReturnTuple',
                                      ['return_code', 'stdout', 'stderr'])
 
 if sys.version_info[0] < 3:
-    input = raw_input
+    input = input
 else:
     input = input
 
