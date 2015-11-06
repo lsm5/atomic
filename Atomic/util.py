@@ -11,10 +11,10 @@ import json
 ReturnTuple = collections.namedtuple('ReturnTuple',
                                      ['return_code', 'stdout', 'stderr'])
 
-if sys.version_info[0] < 3:
-    input = raw_input
-else:
+if sys.version_info[0] >= 3:
     input = input
+else:
+    input = raw_input
 
 
 def image_by_name(img_name, images=None):
